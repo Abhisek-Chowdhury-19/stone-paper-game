@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.heading{
+    background-color: #23022E;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.container{
+    margin-left: 20vw;
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.score{
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100vw;
+}
+.user ,.comp {
+    padding: 0px 40px;
+    font-size: xx-large;
+}
+.us,.com{
+padding: 0px 20px;
+font-size: large;
+}
+.sc{
+    text-align: center;
+    font-size: xx-large;
+}
+.play{
+    
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.msg{
+    background-color: #ADA8B6;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
